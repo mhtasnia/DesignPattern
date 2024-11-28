@@ -8,8 +8,18 @@ public class MenuItemItem implements MenuItem{
     }
 
     @Override
+    public void add(MenuItem item) {
+        throw new UnsupportedOperationException();
+    }
+
+    @Override
+    public void remove(MenuItem item) {
+        throw new UnsupportedOperationException();
+    }
+
+    @Override
     public void print() {
-        System.out.println("- " + name + ": " + description);
+        System.out.println("        - " + name + ": " + description);
     }
 
     
