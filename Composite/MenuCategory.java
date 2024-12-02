@@ -12,10 +12,6 @@ public class MenuCategory implements MenuItem {
         this.level = level;
     }
 
-    public void addItem(MenuItem item) {
-        items.add(item);
-    }
-
     @Override
     public void add(MenuItem item) {
         items.add(item);
